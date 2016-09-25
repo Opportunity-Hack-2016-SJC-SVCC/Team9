@@ -36,6 +36,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="sample.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/A/sample.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.529411">
+              <caret line="77" column="96" selection-start-line="77" selection-start-column="96" selection-end-line="77" selection-end-column="96" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#section#0;n#center#0;n#body#0;n#!!top" expanded="true" />
+                <marker date="1474830827000" expanded="true" signature="2267:2423" placeholder="SELECT AVG(C..performance_metrics..." />
+                <marker date="1474830827000" expanded="true" signature="3202:3288" placeholder="SELECT Name ..organization..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Search99.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/A/Search99.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -49,17 +64,17 @@
       <file leaf-file-name="indexSearch.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/A/indexSearch.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.5882353">
-              <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="126" selection-end-column="13" />
+            <state vertical-scroll-proportion="-3.4509804">
+              <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#section#2;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1474820623000" expanded="true" signature="1391:1599" placeholder="..." />
-                <marker date="1474820623000" expanded="true" signature="1783:1972" placeholder="..." />
-                <marker date="1474820623000" expanded="true" signature="9300:9326" placeholder="select * fro..organization..." />
-                <marker date="1474820623000" expanded="true" signature="12733:12811" placeholder="SELECT * FRO..organization..." />
-                <marker date="1474820623000" expanded="true" signature="14340:14492" placeholder="SELECT AVG(A..organization..." />
+                <element signature="n#style#0;n#div#0;n#section#1;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1474833257000" expanded="true" signature="1391:1599" placeholder="..." />
+                <marker date="1474833257000" expanded="true" signature="1783:1972" placeholder="..." />
+                <marker date="1474833257000" expanded="true" signature="7930:7956" placeholder="select * fro..organization..." />
+                <marker date="1474833257000" expanded="true" signature="11363:11441" placeholder="SELECT * FRO..organization..." />
+                <marker date="1474833257000" expanded="true" signature="12970:13122" placeholder="SELECT AVG(A..organization..." />
               </folding>
             </state>
           </provider>
@@ -68,15 +83,15 @@
       <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/A/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.4117646">
-              <caret line="287" column="45" selection-start-line="287" selection-start-column="45" selection-end-line="287" selection-end-column="45" />
+            <state vertical-scroll-proportion="-11.666667">
+              <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#section#2;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1474815267000" expanded="true" signature="5020:5046" placeholder="select * fro..organization..." />
-                <marker date="1474815267000" expanded="true" signature="8137:8215" placeholder="SELECT * FRO..organization..." />
-                <marker date="1474815267000" expanded="true" signature="9647:9799" placeholder="SELECT AVG(A..organization..." />
+                <marker date="1474826108000" expanded="true" signature="5180:5206" placeholder="select * fro..organization..." />
+                <marker date="1474826108000" expanded="true" signature="8297:8375" placeholder="SELECT * FRO..organization..." />
+                <marker date="1474826108000" expanded="true" signature="9807:9959" placeholder="SELECT AVG(A..organization..." />
               </folding>
             </state>
           </provider>
@@ -85,7 +100,7 @@
       <file leaf-file-name="Search_2.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/A/Search_2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.4117646">
+            <state vertical-scroll-proportion="-3.0196078">
               <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
               <folding>
                 <marker date="1474821242000" expanded="true" signature="2422:2448" placeholder="select * fro..organization..." />
@@ -97,8 +112,8 @@
       <file leaf-file-name="Organization.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/A/Organization.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="5.882353">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="29" selection-end-column="7" />
+            <state vertical-scroll-proportion="23.82353">
+              <caret line="142" column="27" selection-start-line="142" selection-start-column="27" selection-end-line="142" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <marker date="1474821621000" expanded="true" signature="1238:1275" placeholder="select * fro..organization..." />
@@ -134,8 +149,8 @@
       <file leaf-file-name="orgrep.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/orgrep.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5">
-              <caret line="4" column="28" selection-start-line="3" selection-start-column="49" selection-end-line="4" selection-end-column="28" />
+            <state vertical-scroll-proportion="-12.5">
+              <caret line="20" column="84" selection-start-line="20" selection-start-column="84" selection-end-line="20" selection-end-column="84" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
               </folding>
@@ -146,18 +161,8 @@
       <file leaf-file-name="Classify.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/A/Classify.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33275262">
-              <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/A/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0">
-              <caret line="16" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+            <state vertical-scroll-proportion="1.8623693">
+              <caret line="255" column="5" selection-start-line="255" selection-start-column="5" selection-end-line="255" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -175,11 +180,12 @@
         <option value="$PROJECT_DIR$/A/index.php" />
         <option value="$PROJECT_DIR$/A/Search_1.php" />
         <option value="$PROJECT_DIR$/A/index.html" />
-        <option value="$PROJECT_DIR$/A/search.php" />
-        <option value="$PROJECT_DIR$/orgrep.php" />
-        <option value="$PROJECT_DIR$/A/indexSearch.php" />
         <option value="$PROJECT_DIR$/A/Search_2.php" />
         <option value="$PROJECT_DIR$/A/Organization.php" />
+        <option value="$PROJECT_DIR$/orgrep.php" />
+        <option value="$PROJECT_DIR$/A/search.php" />
+        <option value="$PROJECT_DIR$/A/sample.php" />
+        <option value="$PROJECT_DIR$/A/indexSearch.php" />
         <option value="$PROJECT_DIR$/A/Classify.php" />
       </list>
     </option>
@@ -351,7 +357,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/A/indexSearch.php</url>
-          <line>337</line>
+          <line>309</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -375,14 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/A/Search_1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/A/Search99.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -391,25 +389,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/A/search.php">
+    <entry file="file://$PROJECT_DIR$/orgrep.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.4117646">
-          <caret line="287" column="45" selection-start-line="287" selection-start-column="45" selection-end-line="287" selection-end-column="45" />
+        <state vertical-scroll-proportion="-12.5">
+          <caret line="20" column="84" selection-start-line="20" selection-start-column="84" selection-end-line="20" selection-end-column="84" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#section#2;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1474815267000" expanded="true" signature="5020:5046" placeholder="select * fro..organization..." />
-            <marker date="1474815267000" expanded="true" signature="8137:8215" placeholder="SELECT * FRO..organization..." />
-            <marker date="1474815267000" expanded="true" signature="9647:9799" placeholder="SELECT AVG(A..organization..." />
+            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A/Search_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.875">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_0.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17138103">
+          <caret line="354" column="7" selection-start-line="354" selection-start-column="7" selection-end-line="354" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A/Search_2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0196078">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <marker date="1474821242000" expanded="true" signature="2422:2448" placeholder="select * fro..organization..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/A/Organization.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.882353">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="29" selection-end-column="7" />
+        <state vertical-scroll-proportion="23.82353">
+          <caret line="142" column="27" selection-start-line="142" selection-start-column="27" selection-end-line="142" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1474821621000" expanded="true" signature="1238:1275" placeholder="select * fro..organization..." />
@@ -441,47 +460,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/A/Search_2.php">
+    <entry file="file://$PROJECT_DIR$/A/search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.4117646">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state vertical-scroll-proportion="-11.666667">
+          <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
           <folding>
-            <marker date="1474821242000" expanded="true" signature="2422:2448" placeholder="select * fro..organization..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgrep.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5">
-          <caret line="4" column="28" selection-start-line="3" selection-start-column="49" selection-end-line="4" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#2;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1474826108000" expanded="true" signature="5180:5206" placeholder="select * fro..organization..." />
+            <marker date="1474826108000" expanded="true" signature="8297:8375" placeholder="SELECT * FRO..organization..." />
+            <marker date="1474826108000" expanded="true" signature="9807:9959" placeholder="SELECT AVG(A..organization..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/A/indexSearch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5882353">
-          <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="126" selection-end-column="13" />
+        <state vertical-scroll-proportion="-3.4509804">
+          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#section#2;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1474820623000" expanded="true" signature="1391:1599" placeholder="..." />
-            <marker date="1474820623000" expanded="true" signature="1783:1972" placeholder="..." />
-            <marker date="1474820623000" expanded="true" signature="9300:9326" placeholder="select * fro..organization..." />
-            <marker date="1474820623000" expanded="true" signature="12733:12811" placeholder="SELECT * FRO..organization..." />
-            <marker date="1474820623000" expanded="true" signature="14340:14492" placeholder="SELECT AVG(A..organization..." />
+            <element signature="n#style#0;n#div#0;n#section#1;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1474833257000" expanded="true" signature="1391:1599" placeholder="..." />
+            <marker date="1474833257000" expanded="true" signature="1783:1972" placeholder="..." />
+            <marker date="1474833257000" expanded="true" signature="7930:7956" placeholder="select * fro..organization..." />
+            <marker date="1474833257000" expanded="true" signature="11363:11441" placeholder="SELECT * FRO..organization..." />
+            <marker date="1474833257000" expanded="true" signature="12970:13122" placeholder="SELECT AVG(A..organization..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A/sample.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.529411">
+          <caret line="77" column="96" selection-start-line="77" selection-start-column="96" selection-end-line="77" selection-end-column="96" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#0;n#center#0;n#body#0;n#!!top" expanded="true" />
+            <marker date="1474830827000" expanded="true" signature="2267:2423" placeholder="SELECT AVG(C..performance_metrics..." />
+            <marker date="1474830827000" expanded="true" signature="3202:3288" placeholder="SELECT Name ..organization..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/A/Classify.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33275262">
-          <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+        <state vertical-scroll-proportion="1.8623693">
+          <caret line="255" column="5" selection-start-line="255" selection-start-column="5" selection-end-line="255" selection-end-column="5" />
           <folding />
         </state>
       </provider>

@@ -79,7 +79,7 @@ global $state, $query, $city;
                     Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i> <span class="light">NPO DATA FILTERING</span> 
+                    <i class="fa fa-play-circle"></i> <span class="light">NPO FINDER</span>
                 </a>   
                 
             </div>
@@ -92,10 +92,10 @@ global $state, $query, $city;
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#impact">Impact Index</a>
+                        <a class="page-scroll" href="sample.php">Performance index</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#business">Business Indicators</a>
+                        <a class="page-scroll" href="#contactus">Contact Us</a>
                     </li>
                     
                 </ul>
@@ -111,10 +111,9 @@ global $state, $query, $city;
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1>NPO DATA FILTERING</h1>
-                        <p class="intro-text">NPO Data Filtering for Investors.</p>
+                        <h1>NPO FINDER</h1>
                       <form method="get" action="search.php#impact">
-                      <input id= "search" name = "query" class="form-control" >
+                      <input id= "search" placeholder="Search for NPO" name = "query" class="form-control" required>
                               <br><input type="submit" class="btn btn-primary"><br></form>
                             <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
@@ -203,33 +202,6 @@ global $state, $query, $city;
         
               
     </section>
-    
-    
-    
-
-   
-      
-    <section id="business" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Us</h2>
-                <p>Feel free to email us to provide some feedback on our initiatives and goals!</p>
-                <p><a href="mailto:feedback@npo.com">feedback@npo.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://facebook.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
 
     <section id="searches1" class="container content-section text-center">
         <div class="row" style= "margin-left:50px">
@@ -242,7 +214,7 @@ global $state, $query, $city;
 
 
                         mysql_select_db("npowebportal") or die(mysql_error());
-                        echo "sd";
+
 
 
                         $state = $_GET["state"];
@@ -458,7 +430,28 @@ global $state, $query, $city;
 
     <!-- Footer -->
     <footer>
-        
+
+        <div id="contactus" class="container content-section text-center">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Contact Us</h2>
+                    <p>Feel free to email us to provide some feedback on our initiatives and goals!</p>
+                    <p><a href="mailto:feedback@npo.com">feedback@npo.com</a>
+                    </p>
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="http://millercenter.org/" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="http://millercenter.org/" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        </li>
+                        <li>
+                            <a href="http://millercenter.org/" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <!-- jQuery -->
@@ -477,5 +470,7 @@ global $state, $query, $city;
     <script src="js/grayscale.min.js"></script>
 
 </body>
+
+
 
 </html>

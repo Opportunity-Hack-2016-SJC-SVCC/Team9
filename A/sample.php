@@ -9,10 +9,11 @@
 </head>
 <body>
 <div class="intro-body">
+    <?php error_reporting(0); ?>
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1>POPULARITY INDEX</h1>
+                        <center><h1>POPULARITY INDEX</h1></center>
                    	<div class="row" style="color:grey">
 		<div class="col-lg-4 col-md-8 col-md-offset-2 col-lg-offset-4">
       <div class="well">
@@ -21,9 +22,9 @@
           <div class="form-group">
             <label for="Category" class="control-label">Category</label>
          <select class="form-control" name="Category" id="Category">
-              <option value="Startups">Startups</option>
-              <option value="Venture Capitalists">Venture Capitalists</option>
-              <option value="Invest">Investments Bankers</option>
+              <option value="start">Startups</option>
+              <option value="venture">Venture Capitalists</option>
+              <option value="invest">Investments Bankers</option>
             </select>
     
           </div>
@@ -46,7 +47,7 @@ mysql_connect("localhost", "root", "") or die("Error connecting to database: ".m
 
                         mysql_select_db("npowebportal") or die(mysql_error());
                           $query = $_GET['Category'];
-                            echo $query;
+                            //echo $query;
                         
                           //$min_length = 3;
 
@@ -65,17 +66,34 @@ if (strlen($query) >= 1) {
                                         $coverage = $results["cov"];
                                        $popularity   = $results["pop"];
                                          $funds = $results["fun"]/10000;
-                                  echo $funds;
+                                //  echo $funds;
                                   }
                                 
                                   
                               } else {
                                   echo "No results";
                                   
-                              }       }
+                              }
+
+                $raw = mysql_query("SELECT Name  FROM npowebportal.organization WHERE (`Category` LIKE '%" . $query . "%')") or die(mysql_error());
+
+    if (mysql_num_rows($raw) > 0) {
+
+        while ($results = mysql_fetch_array($raw)) {
+             echo $row["Name"];
+        }
+
+
+    } else {
+        echo "No results";
+
+    }
+
+}
 								
       
           ?>
+<center>
          <section id="report">
      
      
@@ -104,7 +122,7 @@ if (strlen($query) >= 1) {
                        2]);
 
       var options = {
-        title: "Density of Precious Metals, in g/cm^3",
+        title: "Popularity Index",
         width: 600,
         height: 400,
         bar: {groupWidth: "95%"},
@@ -116,7 +134,7 @@ if (strlen($query) >= 1) {
             
 
   </script>
-         <div id="columnchart_values" style="width: 900px; height: 300px;"></div>
+         <div id="columnchart_values" style="align:center; width: 900px; height: 300px;"></div>
 
        </body> 
         

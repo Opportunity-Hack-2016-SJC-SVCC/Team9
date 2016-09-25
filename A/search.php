@@ -33,7 +33,9 @@
     <![endif]-->
 
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-
+    <a class="navbar-brand page-scroll" href="indexSearch.php">
+        <i class="fa fa-play-circle"></i> <span class="light">NPO DATA FILTERING</span>
+    </a>
 
 </head>
 

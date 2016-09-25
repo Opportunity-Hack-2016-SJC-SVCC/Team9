@@ -73,21 +73,6 @@
 </nav>
 
 <!-- Intro Header -->
-<header class="intro">
-    <div class="intro-body">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <h1>CLASSIFICATION</h1>
-                    <p class="intro-text">NPO Data Classification
-
-                Classified as
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
 
 <?php
 
@@ -255,14 +240,10 @@ if(!empty($_GET['mission_statement']))
 
     $mission_statement=$_GET['mission_statement'];
 
-    if(strpos($mission_statement,"mobile")!==false) {
 
-     //   $product = "sss ";
-       // echo $product;
-    }
 
-$agr=['food','crop','technology'];
-   $cooking=['stoves','technology','oil'];
+$agr=['information','crop','technology'];
+   $cooking=['stoves','learning','oil'];
 $healthcare=['eyeglasses','technology','treatment'];
 
     for($x=0;$x<count($agr);$x++)
@@ -270,7 +251,7 @@ $healthcare=['eyeglasses','technology','treatment'];
 
     if(strpos($mission_statement,$agr[$x])!==false)
     {
-        $product="agriculture";
+        $product="Technology";
         break;
     }
     }
@@ -279,7 +260,7 @@ $healthcare=['eyeglasses','technology','treatment'];
         for ($x = 0; $x < count($cooking); $x++) {
 
             if (strpos($mission_statement, $cooking[$x]) !== false) {
-                $product = "cooking";
+                $product = "Artificial Intelligence";
                 break;
             }
         }
@@ -293,16 +274,30 @@ $healthcare=['eyeglasses','technology','treatment'];
             }
         }
     }
-
-echo $product;
 }
 else
 {
-    echo "";
+    $product = " None";
 }
 
 
 
 ?>
+<header class="intro">
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1>CLASSIFICATION</h1>
+                    <p class="intro-text">NPO Data Classification
+
+                        Classified as <?php echo $product?>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
 </body>
 </html>
