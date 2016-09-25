@@ -13,7 +13,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <center><h1>POPULARITY INDEX</h1></center>
+                        <center><h1>PERFORMANCE INDEX</h1></center>
                    	<div class="row" style="color:grey">
 		<div class="col-lg-4 col-md-8 col-md-offset-2 col-lg-offset-4">
       <div class="well">
@@ -122,7 +122,7 @@ if (strlen($query) >= 1) {
                        2]);
 
       var options = {
-        title: "Popularity Index",
+        title: "Performance Index",
         width: 600,
         height: 400,
         bar: {groupWidth: "95%"},
