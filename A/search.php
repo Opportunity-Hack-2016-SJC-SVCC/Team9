@@ -82,7 +82,7 @@ mysql_select_db("npowebportal") or die(mysql_error());
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <h1>NPO DATA FILTERING</h1>
+                    <h1></h1>
                     <p class="intro-text">NPO Data Graph for Investors</p>
 
 
